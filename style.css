@@ -1,0 +1,84 @@
+body {
+    color: rgb(0, 255, 34);
+    margin: 0px;
+    background: #1c1541;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mnome, .p1 {
+    white-space: nowrap;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    margin-top: 20px;
+    transform: translate(0%, 0%);
+    display: block;
+}
+
+.mgraduacao {
+    white-space: nowrap;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    margin-top: 49px;
+    transform: translate(0%, 0%);
+}
+
+.mbotao {
+    white-space: nowrap;
+    position: absolute;
+    left: 30%;
+    margin-top: 72px;
+    transform: translate(0%, 0%);
+}
+
+
+/* botao */
+
+.mbotao {
+    display: inline-block;
+    padding: 4.5px 7.5px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #292929;
+    border: none;
+    border-radius: 4.5px;
+    box-shadow: 0 2px #00ff55;
+}
+
+.mbotao {
+    background-color: #292929
+}
+
+.mbotao:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #04ff4360;
+    transform: translateY(1px);
+}
+
+.ft3x4{
+    position: absolute;
+    left: -90px;
+    margin-top: 10px;
+}
+
+.sessao {
+    position: static;
+    text-align: center;
+    margin-top: 800px;
+    display: block;
+}
+
+.dc{
+    margin-top: -15px; 
+    color: #b63838;
+}
+
+.tl{
+    margin-top: 0px; 
+}
