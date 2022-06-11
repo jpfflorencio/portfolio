@@ -23,6 +23,7 @@ body {
     left: 30%;
     margin-top: 49px;
     transform: translate(0%, 0%);
+    color: #68b879;
 }
 
 .mbotao {
@@ -65,7 +66,18 @@ body {
     position: absolute;
     left: -90px;
     margin-top: 10px;
+    transition: transform .2s;
+
 }
+
+.ft3x4:hover{
+    position: absolute;
+    left: -90px;
+    margin-top: 10px;
+    filter: grayscale(55%);
+    transform: scale(1.2);
+  }
+  
 
 .sessao {
     position: static;
@@ -82,3 +94,22 @@ body {
 .tl{
     margin-top: 0px; 
 }
+
+.mcred {
+    text-align: center;
+    margin-top: 140px;
+    color: #fff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    animation-duration: 1.5s;
+
+}
+a:hover {
+    color: #00ff55;
+    text-decoration: none;
+}
+
+

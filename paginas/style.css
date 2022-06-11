@@ -1,0 +1,84 @@
+body {
+    color: rgb(0, 255, 34);
+    margin: 0px;
+    background: #1c1541;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.mcred {
+    text-align: center;
+    margin-top: 140px;
+    color: #fff;
+}
+
+
+.titu{
+  text-align: center;
+  margin-top: 3,2%;
+}
+
+
+.botao {
+  z-index: 0;
+  position: fixed;
+  border: none;
+  top: 20px;
+  right: 40px;
+  padding: 4.5px 7.5px;
+  font-size: 23px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 4.5px;
+  box-shadow: 0 2px #00ff55;
+}
+
+.botao {
+  background-color: #070022;
+}
+
+.botao:active {
+  background-color: #1e004e;
+  box-shadow: 0 2px #04ff4360;
+  transform: translateY(1px);
+}
+
+
+.main {
+  white-space: normal;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.post,
+.post > .bloco {
+  padding: 1%;
+}
+
+.post {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.bloco {
+  float: left;
+  width: 100px 100px;
+
+}
+.content {
+  border: 1px solid rgb(150, 0, 187);
+  background-color: #070022;
+  padding: 10px;
+
+}
+
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
