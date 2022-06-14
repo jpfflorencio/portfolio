@@ -1,3 +1,5 @@
+
+
 body {
     color: rgb(0, 255, 34);
     margin: 0px;
@@ -10,7 +12,7 @@ body {
     white-space: nowrap;
     position: absolute;
     top: 0%;
-    left: 30%;
+    left: 62px;
     margin-top: 20px;
     transform: translate(0%, 0%);
     display: block;
@@ -20,7 +22,7 @@ body {
     white-space: nowrap;
     position: absolute;
     top: 0%;
-    left: 30%;
+    left: 62px;
     margin-top: 49px;
     transform: translate(0%, 0%);
     color: #68b879;
@@ -29,7 +31,7 @@ body {
 .mbotao {
     white-space: nowrap;
     position: absolute;
-    left: 30%;
+    left: 62px;
     margin-top: 72px;
     transform: translate(0%, 0%);
 }
@@ -64,7 +66,7 @@ body {
 
 .ft3x4{
     position: absolute;
-    left: -90px;
+    left: -30px;
     margin-top: 10px;
     transition: transform .2s;
 
@@ -72,7 +74,7 @@ body {
 
 .ft3x4:hover{
     position: absolute;
-    left: -90px;
+    left: -120px;
     margin-top: 10px;
     filter: grayscale(55%);
     transform: scale(1.2);
